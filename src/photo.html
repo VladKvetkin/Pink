@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Pink - Фотографии</title>
+</head>
+<body>
+	<header class="page-header">
+		<div class="page-header__wrapper">
+			<h2 class="visually-hidden">Приложение "Pink" поднимает настроение и меняет мир вокруг.</h2>
+			<div class="page-header__logo">
+				<img src="img/logo.svg" alt="Лого Pink" width="" height="">
+			</div>
+			<nav class="main-nav	main-nav--closed	main-nav--nojs">
+				<button class="main-nav__toggle" type="button">Открыть меню</button>
+				<div class="main-nav__wrapper">
+					<ul class="main-nav__list">
+						<li class="main-nav__list-item"><a href="index.html">Главная</a></li>
+						<li class="main-nav__list-item	main-nav__list-item--active"><a>Фотографии</a></li>
+						<li class="main-nav__list-item"><a href="competition.html">Конкурс</a></li>
+						<li class="main-nav__list-item"><a href="https://htmlacademy.ru/">HtmlAcademy</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p class="page-header__description">Фотографии пользователей</p>
+		</div>
+	</header>
+	<section class="user-photo">
+		<header class="user-photo__header">
+			<p class="user-photo__header-title">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+		</header>
+		<ul class="user-photo__gallery">
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Анна</span>
+					<span class="user-photo__time">5 минут назад</span>
+					<p class="user-photo__user-comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте вопросы!</p>
+					<span class="user-photo__likes">Нравится: 215</span>
+				</div>
+			</li>
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Левон</span>
+					<span class="user-photo__time">5 часов назад</span>
+					<p class="user-photo__user-comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+					<span class="user-photo__likes">Нравится: 356</span>
+				</div>
+			</li>
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Антон</span>
+					<span class="user-photo__time">12 часов назад</span>
+					<p class="user-photo__user-comment">Соседи будут рады!</p>
+					<span class="user-photo__likes">Нравится: 666</span>
+				</div>
+			</li>
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Борис</span>
+					<span class="user-photo__time">20 часов назад</span>
+					<p class="user-photo__user-comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+					<span class="user-photo__likes">Нравится: 215</span>
+				</div>
+			</li>
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Сергей</span>
+					<span class="user-photo__time">25 часов назад</span>
+					<p class="user-photo__user-comment">Самая кубанская в мире</p>
+					<span class="user-photo__likes">Нравится: 4</span>
+				</div>
+			</li>
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Максим</span>
+					<span class="user-photo__time">40 часов назад</span>
+					<p class="user-photo__user-comment">Где снег-то?</p>
+					<span class="user-photo__likes">Нравится: 150</span>
+				</div>
+			</li>
+			<li class="user-photo__gallery-item">
+				<div class="user-photo__photo">
+					<img src="" alt="" width="" height="">
+				</div>
+				<div class="user-photo__description">
+					<span class="user-photo__user">Надежда</span>
+					<span class="user-photo__time">45 часов назад</span>
+					<p class="user-photo__user-comment">Всем GM и взаимные лайки!</p>
+					<span class="user-photo__likes">Нравится: 2560</span>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<section class="user-filter">
+		<header class="user-filter__header">
+			<p class="user-filter__header-title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+		</header>
+		<div class="user-filter__photo">
+			<img src="" alt="" width="" height="">
+		</div>
+		<ul class="user-filter__filters">
+			<li class="user-filter__filter	user-filter__filter--crop"></li>
+			<li class="user-filter__filter	user-filter__filter--fill"></li>
+			<li class="user-filter__filter	user-filter__filter--contrast"></li>
+		</ul>
+		<input class="user-filter__intensity" type="range" name="intensity" id="user-intensity">
+		<label for="user-intensity">Интенсивность</label>
+		<button class="user-filter__posted  btn" type="submit">Запостить</button>
+		<button class="user-filter__posted--cancell  btn" type="submit">Отмена</button>
+	</section>
+	<footer class="competition-footer">
+		<div class="competition-footer__wrapper">
+			<div class="competition-footer__logo">
+				<img src="img/footer-logo.svg" width="" height="" alt="Лого 'Pink'">
+			</div>
+			<div class="competition-footer__socials">
+				<ul class="social-links">
+					<li class="social-link social-link--tw"><a href="#"></a></li>
+					<li class="social-link social-link--fb"><a href="#"></a></li>
+					<li class="social-link social-link--you"><a href="#"></a></li>
+				</ul>
+			</div>
+			<div class="competition-footer__copyrights">
+				Разработано <span class="htmlacademy-icon"></span>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
